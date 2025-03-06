@@ -5,6 +5,7 @@ import streamlit as st
 from openai import OpenAI
 from langchain.memory import ConversationBufferMemory
 import time
+import os
 
 # 必须放在最前面设置页面配置
 st.set_page_config(page_title="Deepseek GPT Chat", layout="wide")
