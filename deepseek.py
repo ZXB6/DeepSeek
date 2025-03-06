@@ -29,7 +29,7 @@ class DeepseekConversationBufferMemory(ConversationBufferMemory):
 
 # 配置 deepseek 模型（请确保 api_key 和 base_url 设置正确）
 client = OpenAI(
-    api_key="98183355-8d1a-4354-a79f-f0a458c11461",
+    api_key=os.environ['KEY'],
     base_url="https://ark.cn-beijing.volces.com/api/v3",
     timeout=1800
 )
